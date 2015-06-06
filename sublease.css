@@ -1,0 +1,240 @@
+* {
+	font-family: "Verdana";
+
+}
+
+body {
+	background: url('hills.jpg') fixed;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #A6191A;
+	border-bottom: 2px solid orange;
+	padding-bottom: 20px;
+	font-family: Lucida Sans Unicode;
+
+}
+h2 {
+	color: #A6191A;
+	border-bottom: 1px solid orange;
+	padding-bottom: 20px;
+	font-family: Lucida Sans Unicode;
+
+}
+h3 {
+	color: #A6191A;
+	padding-bottom: 20px;
+	font-family: Lucida Sans Unicode;
+
+}
+div{
+	display: inline-block;
+}
+
+input {
+	border-radius: 4px;
+}
+#submit {
+	box-shadow: 10;
+}
+#post {
+	color: white;
+	background-color: black;
+	opacity: .7;
+	width: 450px;
+	border-top: 2px solid black;
+}
+
+#pass:link {
+	color: #B0FEBF;
+}
+
+#pass:visited {
+	color: #B0FEBF;
+}
+
+form {
+	font-size: 12px;
+
+}
+
+.frontform {
+	border-top: 1px solid orange;
+	border-bottom: 2px solid orange;
+}
+
+#search {
+	color: white;
+	background-color: black;
+	opacity: 0.7;
+	width: 450px;
+	margin-top: 10px;
+	border-top: 2px solid black;
+	
+}
+
+#menu {
+	font-family: "Verdana";
+	font-size: 15px;
+	list-style: none;
+	margin-top: 65px;
+	color: #C79F06;
+}
+
+.menitem:link {
+	text-decoration: none;
+}
+
+
+.menitem:hover {
+	color: maroon;
+	border-bottom: 2px solid orange;
+}
+.menitem:active {
+	border-bottom: 2px solid white;
+}
+
+#feed {
+	text-align: left;
+	padding: 0px;
+}
+#feedperson {
+	opacity: .7;
+	background-color: black;
+	color: orange;
+	margin-left: 10px;
+}
+
+#feedback {
+	background-color: black;
+	opacity: .7;
+	color: orange;
+	border-radius: 12px;
+}
+
+textarea {
+	border-radius: 12px;
+}
+
+#active {
+	border-bottom: 2px solid orange;
+	color: maroon;
+}
+
+#num {
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid orange;
+	color: #A4BAB5;
+}
+
+.all1 {
+	color: #D7D0C1;
+	font-size: 14px;
+	display: inline-block;
+	background-color: black;
+	opacity: .8;
+	width: 500px;
+	border: 1px solid orange;
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+.all2 {
+	color: white;
+	font-size: 14px;
+	display: inline-block;
+	background-color: black;
+	opacity: .8;
+	width: 500px;
+	border: 1px solid orange;
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.flashtext {
+	position: absolute;
+	padding-top: 10px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0;
+
+}
+
+#desc {
+	border-bottom: 1px solid #FE7979; 
+	color: orange;
+	font-size: 15px;
+}
+
+.xdiv {
+	position: absolute;
+	padding-top: 5px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+}
+
+.x:link {
+	text-decoration: none;
+	color: #FEB901;
+	font-size: 16px;
+}
+
+.x:hover {
+	text-decoration: none;
+}
+.x:visited {
+	color: #FEB901;
+}
+
+.edit:link {
+	text-decoration: none;
+	color: #FEB901;
+
+}
+
+.edit:hover {
+	text-decoration: none;
+}
+.edit:visited {
+	color: #FEB901;
+}
+
+.field {
+	/*text-decoration: underline;*/
+	border-bottom: 1px solid orange;
+}
+
+select {
+	border-radius: 5px;
+	border: 1px solid orange;
+	
+}
+
+#edit {
+	opacity: .85;
+}
+
+#special {
+	opacity: 1;
+}
+
+#req {
+	color: orange;
+}
+
+#hiddenpass {
+	display: none;
+	opacity: 0;
+}
